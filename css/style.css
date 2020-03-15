@@ -63,10 +63,13 @@ body {
   outline: 0 !important; }
 
 hr {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible; }
+    display: inline-block;
+    height: 5px;
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -887,7 +890,8 @@ pre {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 33.33333%;
     flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    max-width: 33.33333%;
+  }
   .col-md-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
